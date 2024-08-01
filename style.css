@@ -134,7 +134,7 @@ span {
 
 /* hero-section */
 .hero-section {
-  background-image: url(/amazonClone/hero_image.jpg);
+  
   height: 350px;
   background-size: cover;
   display: flex;
@@ -153,6 +153,11 @@ span {
   font-size: 0.85rem;
   margin-bottom: 25px;
 }
+.hero_img{
+  height: 100%;
+  width: 100%;
+object-fit:cover}
+
 .hero-msg a {
   color: #007185;
 }
